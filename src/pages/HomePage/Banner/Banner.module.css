@@ -1,0 +1,20 @@
+.menuText{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    gap: 40px;
+    margin-top: 24px;
+}
+.menuText h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+@media (max-width: 1080px){
+    .menuText{
+        display: none;
+    }
+}
